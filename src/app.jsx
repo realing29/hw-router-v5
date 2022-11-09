@@ -84,7 +84,7 @@ const App = () => {
                 <Route path="/users/:userId/edit">
                   <UserEdit />
                 </Route>
-                <Route path="/users/:userId/*">
+                <Route path="/users/:userId/">
                   <MyRedirect />
                 </Route>
               </Switch>
